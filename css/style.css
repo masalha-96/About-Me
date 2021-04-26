@@ -6,16 +6,18 @@ header
 {
     background-color: brown;
     font-size: 50px;
-    padding: 100px;
-    height:20% ;
+    padding: 60px;
 }
 nav ul li a {
     
     text-decoration: none;
-    color:  white;
+    color:  #1cc5dc;
     font-size: 25px;
 }
-
+nav{
+    width=100%;
+    text-align: center;
+}
 nav ul li  {
     display: inline;
     text-align: center;
@@ -52,6 +54,6 @@ img {
 
 footer {
 padding-bottom: 50px;
-font-size: 25px;
+font-size: 20px;
 text-align: center;
 }
