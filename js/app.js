@@ -1,3 +1,4 @@
+
 'use strict';
 alert('Hello');
 let  userName = prompt('What is your name?');
@@ -117,9 +118,6 @@ case 'N':
         break;
 
 }
-
-
-
 
 
 
