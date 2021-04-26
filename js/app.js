@@ -18,6 +18,7 @@ case 'N':
     break;
 
     default:
+        //console.log('Inviled Answer');
         alert('Invalid input, answer with Y/N ')
         let userAnswer0 =  prompt('Welcome To My Page, ' + userName + ' , have you visited my site before?' );
         break;
@@ -40,6 +41,7 @@ case 'N':
     break;
 
     default:
+         //console.log('Inviled Answer');
         alert('Invalid input, answer with Y/N ')
         let userAnswer1 = prompt('Do you know me?');
         break;
@@ -62,6 +64,7 @@ case 'N':
     break;
 
     default:
+         //console.log('Inviled Answer');
         alert('Invalid input, answer with Y/N ')
         let userAnswer3 = prompt('Are you a social person??');
         break;
@@ -83,6 +86,7 @@ case 'N':
     break;
 
     default:
+         //console.log('Inviled Answer');
         alert('Invalid input, answer with Y/N ')
         let userAnswer2 = prompt('Do you like mansaf?');
         break;
@@ -107,11 +111,13 @@ case 'N':
     break;
 
     default:
+         //console.log('Inviled Answer');
         alert('Invalid input, answer with Y/N ')
         let userAnswer4 = prompt('Do you know me?'); 
         break;
 
 }
+
 
 
 
