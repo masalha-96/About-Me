@@ -30,7 +30,7 @@ case 'N':
 
 
 
-alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 6 Questions that you will answer with NUMBERS only. \n - You will have 4 attempts each time. \n- I will hint at you with information about me in every question to help you');
+alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 6 Questions that you will answer with NUMBERS only. \n - You will have 4 attempts each time. \n- I will give you a hint for each question');
 
 // Q1
 while ( stopMyLoop == false  && LoopCtr!==0 )
