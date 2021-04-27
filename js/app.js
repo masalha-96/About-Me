@@ -21,7 +21,7 @@ case 'N':
 
     default:
         //console.log('Inviled Answer');
-        alert('You have lost this question, please make sure to answer yes or no to the next questions' );
+        alert('Invalid Input, please make sure to answer yes or no to the next questions' );
         break;
 
 }
