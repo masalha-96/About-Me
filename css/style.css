@@ -62,12 +62,15 @@ p {
 }
 
 ol li {
-    padding: 25px;
+    padding: 20px;
     font-size: 35px;
     font-family: Haettenschweiler;
     font-weight: lighter; 
 }
-
+.filmStories {
+  max-width: 800px;
+  margin-bottom: 20px;
+}
 .film-covers
 {
     /* display: block;
@@ -81,9 +84,26 @@ ol li {
     
    
 }
+#rightDev{
+    display: block;
+    width: 40%;
+    float: left;
+}
+#leftDev{
+    display: block;
+    width: 40%;
+    float: right;
+}
 
 footer {
-padding-bottom: 50px;
-font-size: 20px;
+    /* the firsy 4 prp to make the footer always in the bottom */
+  
+clear: both; 
+position: relative;
+height: 20px;
+padding: 50px;
+background-color: brown;
+color: white;
+font-size: 25px;
 text-align: center;
 }
