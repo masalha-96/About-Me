@@ -1,11 +1,8 @@
-
 'use strict';
+
+
 alert('Hello');
 let userName = prompt('What is your name?');
-
-let ctr = 0; // marks counter
-let LoopCtr =4; // 
-let stopMyLoop=false;
 
 //QQ
 let userAnswer0 =  prompt('Welcome To My Page, ( ' + userName + ' )  have you visited my site before?' );
@@ -29,8 +26,12 @@ case 'N':
 }
 
 
-
-alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 6 Questions that you will answer with NUMBERS only. \n - You will have 4 attempts each time. \n- I will give you a hint for each question');
+function guessingGame()
+{
+    let ctr = 0; // marks counter
+    let LoopCtr =4; // 
+    let stopMyLoop=false;
+    alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 6 Questions that you will answer with NUMBERS only. \n - You will have 4 attempts each time. \n- I will give you a hint for each question');
 
 // Q1
 while ( stopMyLoop == false  && LoopCtr!==0 )
@@ -356,3 +357,10 @@ while ( LoopCtr >= 0 && stopMyLoop == false )
 
 
 alert('Thank You, ' + userName + ' Your score is ( ' + ctr +' / 7 ) ');
+
+}
+
+
+
+//function calling 
+guessingGame();
