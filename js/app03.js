@@ -2,13 +2,13 @@
 
 
 var marksCounter = 0;
+alert('Hello');
 let userName = prompt('What is your name?');
 
 
 //QQ
 function greeting() {
 
-    alert('Hello');
     let userAnswer0 = prompt('Welcome To My Page, ( ' + userName + ' )  have you visited my site before?');
     switch (userAnswer0.toUpperCase()) {
         case 'YES':
