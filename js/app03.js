@@ -349,7 +349,7 @@ function q7() {
 
 
  greeting();
-alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 6 Questions that you will answer with NUMBERS only. \n - You will have 4 attempts each time. \n- I will give you a hint for each question');
+alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 7 Questions that you will answer with NUMBERS only. \n - You will have 6 questions with 4 attempts each time and the last question you will have 6 attempts. \n- I will give you a hint for each question');
 q1 ();
 q2 ();
 q3 ();
