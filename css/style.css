@@ -1,4 +1,6 @@
-
+/* * {
+    box-sizing: border-box;
+} */
 
 body {
     background-color: #f5f7b2;
@@ -15,11 +17,9 @@ header
 
 footer {
     /* the firsy 4 prop to make the footer always in the bottom */
-height: 15%;
 clear: both; 
 position: relative;
-height: 20px;
-padding: 50px;
+padding: 100px;
 background-color: brown;
 color: white;
 font-size: 25px;
@@ -75,6 +75,7 @@ p {
 
 
 .labels {
+   
     color: #cf0000;
     text-align: center;
     margin: 20px;
@@ -124,6 +125,8 @@ p {
     float:left;
   
 }
+
+
 #expLabel
 {
     position: relative;
@@ -131,14 +134,25 @@ p {
     /* border: 1px black solid; */
     margin: 30px;
 }
+h6{
+    color: brown;
+    text-align: right;
+    margin: 10px;
+  
+   
+}
 #workAndExp {
-    width: 80%;
-    /* border: 1px black solid; */
+    width: 90%;
     margin: 100px;
     padding: 25px;
     font-size: 30px;
     font-family: Candara; 
 }
+
+#workAndExp li {
+    margin: 40px;
+}
+
 
 
 
