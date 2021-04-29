@@ -1,15 +1,6 @@
 'use strict';
 
 
-
-//function greeting()
-// function question1( let userInput )
-// function question2( let userInput )
-// function question3( let userInput )
-// function question4( let userInput )
-// function question5( let userInput )
-// function question6( let userInput )
-// function question7( let userInput )
 var marksCounter = 0;
 let userName = prompt('What is your name?');
 
@@ -357,18 +348,17 @@ function q7() {
 }
 
 
- //greeting();
-// alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 6 Questions that you will answer with NUMBERS only. \n - You will have 4 attempts each time. \n- I will give you a hint for each question');
-// q1 ();
-// q2 ();
-// q3 ();
-// q4();
-// q5();
+ greeting();
+alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 6 Questions that you will answer with NUMBERS only. \n - You will have 4 attempts each time. \n- I will give you a hint for each question');
+q1 ();
+q2 ();
+q3 ();
+q4();
+q5();
  q6();
 q7();
 
  alert(`Thank You,  ${userName} Your score is ${marksCounter}  / 7 ) `);
-
 
 
 
