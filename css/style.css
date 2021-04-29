@@ -2,7 +2,6 @@
 
 body {
     background-color: #f5f7b2;
-    height: 70%;
 }
 
 header
@@ -27,16 +26,19 @@ font-size: 25px;
 text-align: center;
 margin: 3px;
 }
+
 nav ul li a {
     
     text-decoration: none;
     color:  #1cc5dc;
     font-size: 25px;
 }
+
 nav{
     width=100%;
     text-align: center;
 }
+
 nav ul li  {
     display: inline;
     text-align: center;
@@ -71,7 +73,6 @@ p {
    
 }
 
-/* check from here */
 
 .labels {
     color: #cf0000;
@@ -83,7 +84,7 @@ p {
     font-weight: bolder;
 }
 
-ol li {
+.filmsNames {   
     padding: 20px;
     margin: 10px;
     font-size: 35px;
@@ -123,13 +124,23 @@ ol li {
     float:left;
   
 }
-
+#expLabel
+{
+    position: relative;
+    bottom: -120px;
+    /* border: 1px black solid; */
+    margin: 30px;
+}
 #workAndExp {
-    margin: 50px;
+    width: 80%;
+    /* border: 1px black solid; */
+    margin: 100px;
     padding: 25px;
     font-size: 30px;
     font-family: Candara; 
 }
+
+
 
 
 
