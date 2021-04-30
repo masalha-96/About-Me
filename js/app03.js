@@ -355,10 +355,10 @@ q2 ();
 q3 ();
 q4();
 q5();
- q6();
+q6();
 q7();
 
- alert(`Thank You,  ${userName} Your score is ${marksCounter}  / 7 ) `);
+ alert(`Thank You,  ${userName} Your score is  ( ${marksCounter}  / 7 ) `);
 
 
 
