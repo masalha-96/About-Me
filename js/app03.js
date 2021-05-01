@@ -6,40 +6,100 @@ alert('Hello');
 let userName = prompt('What is your name?');
 
 
-//QQ
-function greeting() {
+//greeting fun using switch 
+// function greeting() {
 
-    let userAnswer0 = prompt('Welcome To My Page, ( ' + userName + ' )  have you visited my site before?');
-    switch (userAnswer0.toUpperCase()) {
-        case 'YES':
-        case 'Y':
-            alert('Welcome back!')
-            break;
+//     let userAnswer0 = prompt('Welcome To My Page, ( ' + userName + ' )  have you visited my site before?');
+//     switch (userAnswer0.toUpperCase()) {
+//         case 'YES':
+//         case 'Y':
+//             alert('Welcome back!')
+//             break;
 
-        case 'NO':
-        case 'N':
-            alert('it\'s your first time!,  u r welcome')
-            break;
+//         case 'NO':
+//         case 'N':
+//             alert('it\'s your first time!,  u r welcome')
+//             break;
 
-        default:
-            //console.log('Inviled Answer');
-            alert('Invalid Input');
-            break;
+//         default:
+//             //console.log('Inviled Answer');
+//             alert('Invalid Input');
+//             break;
 
-    }
+//     }
    
+
+// }
+
+//greeting fun using for 
+function greeting()
+{
+    let userAnswer0 = prompt('Welcome To My Page, ( ' + userName + ' )  have you visited my site before?');
+
+    if (userAnswer0.toUpperCase() == 'YES' || userAnswer0.toUpperCase() == 'Y')
+    {
+        alert('Welcome back!'); 
+    }
+
+    else if  ( userAnswer0.toUpperCase() == 'NO' || userAnswer0.toUpperCase() == 'N')
+    {
+        alert('it\'s your first time!,  u r welcome');
+    }
+
+    else {
+        alert('Invalid Input'); 
+    }
 
 }
 
 
+// Q1 USING While
+// function q1() {
 
-// Q1
-function q1() {
+//     let LoopCtr = 4; // 
+//     let stopMyLoop = false;
+//     while (stopMyLoop == false && LoopCtr !== 0) {
+//         LoopCtr--;
+//         let userInput = Number(prompt("How old am I? \nHint: my age is between 20 and 30"));
 
-    let LoopCtr = 4; // 
-    let stopMyLoop = false;
-    while (stopMyLoop == false && LoopCtr !== 0) {
-        LoopCtr--;
+//         if (userInput >= 20 && userInput <= 22) {
+//             alert('low');
+//         }
+//         else if (userInput == 23 || userInput == 25) {
+//             alert('so close');
+//         }
+//         else if (userInput == 24) {
+//             alert('Correct Answer! ^^');
+//             marksCounter++;            
+//             stopMyLoop = true;
+//         }
+//         else if (userInput == 26) {
+//             alert(' close');
+//         }
+//         else if (userInput >= 27 && userInput < 30) {
+//             alert('too high');
+//         }
+//         else if (userInput < 20 || userInput > 30) // out of range
+//         {
+//             alert('Out of Range');
+//         }
+
+//         while (stopMyLoop == false && LoopCtr == 0) // When the attempts end without a correct answer
+//         {
+//             alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 24 ');
+//             stopMyLoop = true;
+//         }
+
+//     }
+// }
+
+
+// Q1 using for 
+function q1 ()
+{
+let stopLoop = false;
+    for (let i =0 ; i <4 ; i++)
+    {
         let userInput = Number(prompt("How old am I? \nHint: my age is between 20 and 30"));
 
         if (userInput >= 20 && userInput <= 22) {
@@ -50,8 +110,6 @@ function q1() {
         }
         else if (userInput == 24) {
             alert('Correct Answer! ^^');
-            marksCounter++;            
-            stopMyLoop = true;
         }
         else if (userInput == 26) {
             alert(' close');
@@ -64,16 +122,14 @@ function q1() {
             alert('Out of Range');
         }
 
-        while (stopMyLoop == false && LoopCtr == 0) // When the attempts end without a correct answer
+        while (i == 3 && stopLoop == false)
         {
-            alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 24 ');
-            stopMyLoop = true;
+            alert('Sorry you\'ve reached the number of attempts allowed: The correct answer is  :: 24 '); break;
         }
 
     }
+
 }
-
-
 
 //Q2
 function q2() {
@@ -348,17 +404,17 @@ function q7() {
 }
 
 
- greeting();
+greeting();
 alert('After This Message, we\'re going to play a quick game, \n Called GUESS-AboutMe, \n - Which is made up of 7 Questions that you will answer with NUMBERS only. \n - You will have 6 questions with 4 attempts each time and the last question you will have 6 attempts. \n- I will give you a hint for each question');
-q1 ();
-q2 ();
-q3 ();
+q1();
+q2();
+q3();
 q4();
 q5();
 q6();
 q7();
 
- alert(`Thank You,  ${userName} Your score is  ( ${marksCounter}  / 7 ) `);
+alert(`Thank You,  ${userName} Your score is  ( ${marksCounter}  / 7 ) `);
 
 
 
